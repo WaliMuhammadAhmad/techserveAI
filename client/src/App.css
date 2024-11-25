@@ -1,0 +1,16 @@
+.vSlash{
+  font-size: medium;
+  color: black;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.vSlash::before{
+  content: "/";
+  padding-right: .2rem;
+}
+
+.vSlash::after{
+  content: "/";
+  padding-left: .2rem;
+}

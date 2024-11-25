@@ -1,0 +1,688 @@
+#heading{
+    font-family: "Sora", sans-serif;
+    font-size: 30px;
+   padding-left: 50px;
+    color: #2ebf91;
+  
+}
+
+#heading p{
+    font-family: "Sora", sans-serif;
+    font-size: 30px;
+
+    color: black;
+margin-top: -40px;
+}
+#second{
+    font-family: "Sora", sans-serif;
+
+font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second p{
+    font-family: "Sora", sans-serif;
+
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#serviceCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#serviceCard h2{
+    width: 290px;
+    font-size: 30px;
+}
+#serviceCard p{
+    width: 1000px;
+}
+#lo{
+    display: flex;
+
+}
+
+#lo button{
+    background-color: transparent;
+    font-weight: bolder;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+#serviceCard{
+    border: 1px solid black;
+    width: 1600px;
+border-radius: 30px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+}
+
+
+
+
+
+
+
+#serviceCard2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#serviceCard2 h2{
+  width: 290px;
+  font-size: 30px;
+}
+#serviceCard2 p{
+  width: 1000px;
+}
+
+
+
+#serviceCard2{
+  border: 1px solid black;
+  width: 1600px;
+border-radius: 30px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-image: url("wave.svg");
+background-repeat: no-repeat;
+
+background-color: #e9ebed;
+border: none;
+
+
+}
+
+
+
+#upperservices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: "Sora", sans-serif;
+
+}
+
+
+#upperservices2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Sora", sans-serif;
+
+
+}
+
+#lobutton button{
+border: 2px solid #386252;
+padding: 17px;
+border-radius: 60px;
+}
+#lobutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+#lobutton button:hover {
+
+background-color: #2ebf91;
+color: white;
+border: none;
+padding: 20px;
+}
+
+
+
+
+
+
+.vertical {
+    border-left: 1px solid black;
+    height:130px;
+    padding: 20px;
+   
+  }
+
+
+
+
+  @media screen and (max-width: 931px) {
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#heading h1{
+font-size: 90px !important;
+}
+  }
+
+
+  @media screen and (max-width: 390px) {
+#second p{
+  display: none;
+}
+
+
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 1672px) {
+  #serviceCard{
+   width: 1500px;
+  }
+  #serviceCard h2{
+padding-left: 50px;
+
+
+  }
+  #lobutton {
+    padding-right: 50px;
+  }
+  #lobutton button{
+width: 150px;
+  }
+
+  #serviceCard h2{
+    font-size: 20px;
+
+  }
+
+
+
+
+
+  #serviceCard2{
+    width: 1500px;
+   }
+   #serviceCard2 h2{
+ padding-left: 50px;
+ 
+ 
+   }
+   #lobutton {
+     padding-right: 50px;
+   }
+   #lobutton button{
+ width: 150px;
+   }
+ 
+   #serviceCard2 h2{
+     font-size: 20px;
+ 
+   }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1672px) {
+    #serviceCard{
+     width: 1300px;
+    }
+    #serviceCard h2{
+  padding-left: 50px;
+  padding-right: 20px;
+  
+  
+    }
+
+    #serviceCard2{
+      width: 1300px;
+     }
+     #serviceCard2 h2{
+   padding-left: 50px;
+   padding-right: 20px;
+   
+   
+     }
+    #lobutton {
+      padding-right: 50px;
+    }
+    #lobutton button{
+  width: 150px;
+    }
+  
+    #serviceCard h2{
+      font-size: 20px;
+  
+    }
+
+     #serviceCard2 h2{
+      font-size: 20px;
+  
+    }
+    #lo{
+        width: 1100px;
+    }
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 1317px) {
+    #serviceCard{
+     width: 1000px;
+    }
+    #serviceCard h2{
+  padding-left: 50px;
+  padding-right: 20px;
+  
+  
+    }
+
+
+    #serviceCard2{
+      width: 1000px;
+     }
+     #serviceCard2 h2{
+   padding-left: 50px;
+   padding-right: 20px;
+   
+   
+     }
+
+
+    #lobutton {
+      padding-right: 50px;
+    }
+    #lobutton button{
+  width: 150px;
+    }
+  
+    #serviceCard h2{
+      font-size: 20px;
+  
+    }
+
+
+    #serviceCard2 h2{
+      font-size: 20px;
+  
+    }
+    #lo{
+        width: 700px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 1016px) {
+    #serviceCard{
+     width: 700px;
+    }
+    #serviceCard h2{
+  padding-left: 50px;
+  padding-right: 20px;
+  
+  
+    }
+
+
+    #serviceCard2{
+      width: 700px;
+     }
+     #serviceCard2 h2{
+   padding-left: 50px;
+   padding-right: 20px;
+   
+   
+     }
+    #lobutton {
+      padding-right: 50px;
+    }
+    #lobutton button{
+  width: 150px;
+    }
+  
+    #serviceCard h2{
+      font-size: 20px;
+  
+    }
+
+
+    #serviceCard2 h2{
+      font-size: 20px;
+  
+    }
+    #lo{
+        width: 500px;
+    }
+  }
+
+  #lo{
+    text-align: center;
+  }
+
+
+
+
+
+  @media screen and (max-width: 738px) {
+  #serviceCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  #serviceCard2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  .vertical{
+    display: none;
+  }
+  #lo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #lo p{
+    width: 80%;
+
+  }
+  }
+
+
+
+
+  @media screen and (max-width: 512px) {
+    #serviceCard{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+
+
+    #serviceCard2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+    .vertical{
+      display: none;
+    }
+    #lo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #lo p{
+      width: 80%;
+  
+    }
+
+
+    #serviceCard{
+        width: 400px;
+        margin: 30px;
+    }
+
+    #serviceCard2{
+      width: 400px;
+      margin: 30px;
+  }
+    }
+
+    @media screen and (max-width: 512px) {
+
+        #upperservices{
+            width: 100%;
+        }
+
+
+        #serviceCard{
+            width: 300px;
+        }
+
+        #serviceCard2{
+          width: 300px;
+      }
+
+        #lo p{
+            width: 190px;
+        }
+    }
+  
+
+
+    #pro1{
+      border: 1px solid black;
+      width: 400px;
+      border-radius: 20px;
+   margin: 30px;
+      
+    }
+
+
+    #pro1 h2{
+      color: black;
+      padding-left: 20px;
+      font-size: 40px;
+    }
+    #pro1 img{
+      height: 40px;
+    }
+
+
+
+    #pro2{
+      border: 1px solid black;
+      width: 400px;
+      border-radius: 20px;
+   margin: 30px;
+
+  background-color: black;
+  color: white;
+      
+    }
+
+
+    #pro2 h2{
+      color: white;
+      padding-left: 20px;
+      font-size: 40px;
+    }
+    #pro2 img{
+      height: 40px;
+    }
+
+
+
+    #proimg{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #upo{
+      display: flex;
+justify-content: left;
+padding-top: 30px;
+padding-bottom: 20px;
+    }
+
+    #upoints li{
+      padding: 5px;
+    
+    }
+
+    #upoints{
+      padding-left: 20px;
+    }
+
+
+
+    #productssection{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    #upoo{
+      padding-bottom: 120px;
+      background-image: url("wave.svg");
+background-repeat: no-repeat;
+display: flex;
+justify-content: left;
+    }
+
+
+    #proheading h2{
+      padding-left: 40px;
+      font-size: 50px;
+      color: #2fbe8e;
+    }
+
+
+    #proheading h3{
+      padding-left: 40px;
+      font-size: 50px;
+      color: black;
+      margin-top: -10px;
+    }
+
+
+    #heading{
+      padding-top: 90px;
+    }
+
+    #foot{
+      padding-top: 90px;
+    }
+#pro1{
+  box-shadow: 2px 2px 5px gray;
+}
+#pro2{
+  box-shadow: 2px 2px 5px gray;
+}
+
+    @media screen and (max-width: 1201px) {
+
+#productssection{
+  flex-direction: column;
+}
+
+    }
+
+
+
+    @media screen and (max-width: 519px) {
+
+#pro1{
+width: 400px;
+
+}
+#pro2{
+width: 400px;
+
+}
+#serviceCard{
+  width: 400px;
+}
+
+#serviceCard2{
+  width: 400px;
+}
+
+
+#proheading h3{
+ font-size: 30px;
+ padding-right: 20px;
+}
+
+
+
+    }
+
+
+   
+    
+
+
+    @media screen and (max-width: 495px) {
+
+      #pro1{
+      width: 300px;
+      
+      }
+      #pro2{
+      width: 300px;
+      
+      }
+      #serviceCard{
+        width: 300px;
+      }
+      
+      #serviceCard2{
+        width: 300px;
+      }
+      
+      
+      #proheading h3{
+       font-size: 30px;
+       padding-right: 40px;
+      }
+      
+      #heading{
+        margin-right: 90px;
+      }
+
+
+
+      #check{
+
+        width: 470px;
+      }
+
+      #check2{
+        
+        width: 470px;
+    
+      }
+
+      #check3{
+        
+        width: 470px;
+      }
+      #myfoot{
+        width: 470px;
+
+      }
+      
+          }
+      
