@@ -3,7 +3,7 @@ import style from "./style.module.css";
 import Navbar from "../../components/Navbar";
 import ParticlesComponent from "../../components/ParticlesComponent";
 import Brands from "../../components/Brands";
-import Service from "../../components/Service";
+import Service from "../../components/service/Service";
 import About from "../../components/About";
 import CaseStudySection from "../../components/CaseStudySection";
 import Products from "../../components/Products";
@@ -21,11 +21,6 @@ export default function Home() {
             src='Logos/logos/logo_removebg.png'
             alt='techiserve logo'
           />
-          <p className={style.text} style={{ marginTop: "5dvh" }}>
-            We are a data analytics and artificial intelligence company
-            committed to helping businesses unlock the full potential of their
-            data.
-          </p>
         </div>
       </div>
       <div style={{ zIndex: 1000 }}>

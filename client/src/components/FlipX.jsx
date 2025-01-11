@@ -17,15 +17,14 @@ export default function RevealLinks({ link }) {
     }
   };
   return (
-    <Link to={link} className="cardButton" onClick={handleScroll}>
+    <Link to={link} className='cardButton' onClick={handleScroll}>
       <motion.span
-        initial="initial"
-        whileHover="hovered"
-        className="container"
+        initial='initial'
+        whileHover='hovered'
+        className='container'
         style={{
           lineHeight: 0.75,
-        }}
-      >
+        }}>
         <div>
           <motion.span
             variants={{
@@ -41,12 +40,11 @@ export default function RevealLinks({ link }) {
               ease: "easeInOut",
               delax: STAGGER * 0,
             }}
-            className="inline-block"
-          >
+            className='inline-block'>
             <SlArrowRight />
           </motion.span>
         </div>
-        <div className="absolute">
+        <div id='slash' className='absolute'>
           <motion.span
             variants={{
               initial: {
@@ -61,8 +59,7 @@ export default function RevealLinks({ link }) {
               ease: "easeInOut",
               delax: STAGGER * 0,
             }}
-            className="inline-block"
-          >
+            className='inline-block'>
             <SlArrowRight />
           </motion.span>
         </div>
