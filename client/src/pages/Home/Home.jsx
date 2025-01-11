@@ -11,15 +11,15 @@ import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
-    <div id="#" style={{ backgroundColor: "#F0F2F4" }}>
+    <div id='#' style={{ backgroundColor: "#F0F2F4" }}>
       <Navbar />
-      <ParticlesComponent id="particles" />
+      <ParticlesComponent id='particles' />
       <div className={style.landingPage}>
         <div className={style.container}>
           <img
             className={style.bgImage}
-            src="img/logos/logo_removebg.png"
-            alt="techiserve logo"
+            src='Logos/logos/logo_removebg.png'
+            alt='techiserve logo'
           />
           <p className={style.text} style={{ marginTop: "5dvh" }}>
             We are a data analytics and artificial intelligence company
@@ -30,19 +30,19 @@ export default function Home() {
       </div>
       <div style={{ zIndex: 1000 }}>
         <Brands />
-        <section id="services">
+        <section id='services'>
           <Service />
         </section>
-        <section id="products">
+        <section id='products'>
           <Products />
         </section>
-        <section id="about">
+        <section id='about'>
           <About />
         </section>
-        <section id="caseStudy">
+        <section id='caseStudy'>
           <CaseStudySection />
         </section>
-        <section id="footer">
+        <section id='footer'>
           <Footer />
         </section>
       </div>
