@@ -124,3 +124,144 @@
 .caseStudyContent > p {
   font-weight: 500;
 }
+
+@media (max-width: 1477px) {
+  .caseStudyImg {
+    height: 27.5rem;
+  }
+  .caseStudyTitle {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1365px) {
+  .caseStudyImg {
+    height: 25.5rem;
+  }
+  .caseStudyTitle {
+    gap: 0.8rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1271px) {
+  .caseStudyImg {
+    height: 23.5rem;
+    width: 99%;
+  }
+  .caseStudyTitle {
+    gap: 0.6rem;
+    font-size: 15px;
+  }
+  .caseStudyContent {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1182px) {
+  .caseStudyImg {
+    height: 20.5rem;
+    width: 99%;
+    border-radius: 15px;
+  }
+  .caseStudyTitle {
+    gap: 0.4rem;
+    font-size: 14px;
+  }
+  .caseStudyContent {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .caseStudyImg {
+    height: 18rem;
+    width: 99%;
+  }
+  .caseStudyTitle {
+    gap: 0.2rem;
+    font-size: 12px;
+    margin-left: 2.5rem;
+  }
+  .caseStudyContent {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 985px) {
+  .caseStudyImg {
+    height: 18rem;
+    width: 95%;
+  }
+}
+
+@media (max-width: 935px) {
+  .caseStudyTitle {
+    gap: 0.2rem;
+    margin-left: 2rem;
+  }
+  .caseStudyContent {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 928px) {
+  .caseStudyImg {
+    height: 15rem;
+    width: 90%;
+  }
+  .caseStudyTitle {
+    gap: 0.2rem;
+    margin-left: 2rem;
+  }
+  .caseStudyContent {
+    font-size: 10px;
+  }
+  .caseStudyGrid {
+    grid-template-columns: 60% 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .caseStudyImg {
+    height: 18rem;
+    width: 100%;
+  }
+  .caseStudyTitle {
+    gap: 0.2rem;
+    margin-left: 2rem;
+  }
+  .caseStudyContent {
+    font-size: 15px;
+  }
+  .caseStudyGrid {
+    grid-template-columns: 1fr;
+  }
+  .carousel {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .caseStudyImg {
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .caseStudyTitle {
+    gap: 0.2rem;
+    margin-left: 1.5rem;
+  }
+  .caseStudyContent {
+    font-size: 12px;
+  }
+  .caseStudyGrid {
+    grid-template-columns: 1fr;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import CaseStudyCard from "../../components/caseStudy/CaseStudy";
 import CaseStudies from "../../data/caseStudies";
 
 export default function CaseStudy() {
@@ -13,25 +14,14 @@ export default function CaseStudy() {
           <div className={style.heading}>
             <h1>Case Studies</h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
-              cupiditate alias minus incidunt repudiandae animi unde culpa
-              quisquam inventore, voluptate, adipisci perspiciatis eius! Facere
-              dignissimos praesentium necessitatibus omnis impedit
-              reprehenderit..
+              Explore our in-depth case studies showcasing impactful solutions
+              and innovative approaches.
             </p>
           </div>
         </div>
         <div className={style.caseStudySection}>
-          {CaseStudies.map((study) => (
-            <div key={study.id} className={style.caseStudy}>
-              <div id={`${study.title}`}>
-                <h1>{study.title}</h1>
-                <h2>Problem Statement</h2>
-                <p>{study.problemStatement}</p>
-                <h2>Solution</h2>
-                <p>{study.solution}</p>
-              </div>
-            </div>
+          {CaseStudies.map((caseStudy) => (
+            <CaseStudyCard key={caseStudy.id} {...caseStudy} />
           ))}
         </div>
       </div>

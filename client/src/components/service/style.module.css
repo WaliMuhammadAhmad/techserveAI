@@ -81,3 +81,18 @@
   background-color: #2f9070;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 350px) {
+  .cardTitle {
+    font-size: 1rem;
+  }
+  .cardDescription {
+    font-size: 0.9rem;
+  }
+}

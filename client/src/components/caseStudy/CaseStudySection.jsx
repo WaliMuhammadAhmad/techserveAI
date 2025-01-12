@@ -42,7 +42,7 @@ export default function CaseStudySection() {
             }}
             className={style.carouselContainer}>
             {[caseStudies[currentIndex]].map((caseStudy) => (
-              <CaseStudy key={caseStudy.index} {...caseStudy} />
+              <CaseStudy key={caseStudy.id} {...caseStudy} />
             ))}
           </motion.div>
           <div className={style.navButton} onClick={nextSlide}>
