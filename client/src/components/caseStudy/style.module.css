@@ -1,0 +1,126 @@
+.container {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 0.1rem 0;
+}
+
+.sectionContainer {
+  height: auto;
+  width: 95%;
+  margin: 1rem auto;
+  border-radius: 20px;
+}
+
+.caseStudyContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  height: auto;
+  min-height: 70dvh;
+  width: 95%;
+  margin: 1rem auto;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  text-wrap: wrap;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.navButton {
+  border: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.cardButton {
+  border: 2px solid #2f9070;
+  border-radius: 100%;
+  padding: 1.2rem 1.2rem 1rem 1.2rem;
+  background-color: #2f9070;
+  color: white;
+}
+
+.cardButton:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #2f9070;
+}
+
+.carouselContainer {
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.caseStudyGrid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.caseStudyTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2rem;
+  margin-left: 3rem;
+  font-size: 18px;
+}
+
+.caseStudyImgBox {
+  width: 95%;
+  height: auto;
+  min-height: 70dvh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.caseStudyImg {
+  align-self: flex-end;
+  height: 30rem;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.caseStudyButton {
+  width: max-content;
+  max-width: fit-content;
+  padding: 0 1rem;
+  transition: all 0.5s;
+}
+
+.caseStudyContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.caseStudyContent > p {
+  font-weight: 500;
+}

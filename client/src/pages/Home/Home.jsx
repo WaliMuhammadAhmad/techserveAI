@@ -5,7 +5,7 @@ import ParticlesComponent from "../../components/ParticlesComponent";
 import Brands from "../../components/Brands";
 import Service from "../../components/service/Service";
 import About from "../../components/About";
-import CaseStudySection from "../../components/CaseStudySection";
+import CaseStudySection from "../../components/caseStudy/CaseStudySection";
 import Products from "../../components/Products";
 import Footer from "../../components/Footer";
 
