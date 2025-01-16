@@ -186,12 +186,14 @@
 }
 
 .active {
-  background-color: #343f3c;
   color: white;
+  background-color: #343f3c;
   border-radius: 50px;
+  padding: 0.8rem;
 }
 
 .active > a {
+  text-decoration: none;
   color: white;
 }
 
@@ -220,7 +222,7 @@
 .dropdownItem {
   text-decoration: none;
   color: black;
-  margin: 0.5rem 0;
+  padding: 0.8rem;
 }
 
 .btnContainer {

@@ -169,7 +169,11 @@
     font-size: 14px;
   }
   .caseStudyContent {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .caseStudyGrid {
+    grid-template-columns: 65% 35%;
   }
 }
 
@@ -180,11 +184,12 @@
   }
   .caseStudyTitle {
     gap: 0.2rem;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 2.5rem;
   }
-  .caseStudyContent {
-    font-size: 11px;
+  .caseStudyGrid {
+    grid-template-columns: 60% 40%;
+    gap: 1.5rem;
   }
 }
 
@@ -193,6 +198,10 @@
     height: 18rem;
     width: 95%;
   }
+  .caseStudyGrid {
+    grid-template-columns: 55% 45%;
+    gap: 1.3rem;
+  }
 }
 
 @media (max-width: 935px) {
@@ -200,25 +209,22 @@
     gap: 0.2rem;
     margin-left: 2rem;
   }
-  .caseStudyContent {
-    font-size: 10px;
+  .caseStudyGrid {
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
   }
 }
 
 @media (max-width: 928px) {
-  .caseStudyImg {
-    height: 15rem;
-    width: 90%;
+  .caseStudyContainer {
+    min-height: auto;
   }
-  .caseStudyTitle {
-    gap: 0.2rem;
-    margin-left: 2rem;
-  }
-  .caseStudyContent {
-    font-size: 10px;
+  .caseStudyImgBox {
+    min-height: fit-content;
+    padding: 0.9rem;
   }
   .caseStudyGrid {
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -229,13 +235,13 @@
   }
   .caseStudyTitle {
     gap: 0.2rem;
-    margin-left: 2rem;
+    margin-left: 0;
   }
   .caseStudyContent {
     font-size: 15px;
   }
-  .caseStudyGrid {
-    grid-template-columns: 1fr;
+  .caseStudyImgBox {
+    padding: 0.8rem;
   }
   .carousel {
     flex-direction: column;
@@ -245,15 +251,31 @@
   }
 }
 
+@media (max-width: 600px) {
+  .caseStudyImg {
+    height: 17rem;
+    width: 100%;
+  }
+  .caseStudyContent {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  .caseStudyContent {
+    font-size: 14px;
+  }
+  .caseStudyImgBox {
+    padding: 0.5rem;
+    gap: 0;
+  }
+}
+
 @media (max-width: 320px) {
   .caseStudyImg {
     height: 15rem;
     width: 100%;
     border-radius: 10px;
-  }
-  .caseStudyTitle {
-    gap: 0.2rem;
-    margin-left: 1.5rem;
   }
   .caseStudyContent {
     font-size: 12px;
