@@ -3,11 +3,10 @@
   width: 95%;
   margin: 1rem auto;
   border-radius: 20px;
+  background-color: white;
 }
 
 .container {
-  border-radius: 10px;
-  background-color: white;
   padding: 1rem;
 }
 
@@ -80,6 +79,10 @@
 .cardButtonContainer:hover {
   background-color: #2f9070;
   cursor: pointer;
+}
+
+.cardText {
+  text-align: justify;
 }
 
 @media (max-width: 768px) {

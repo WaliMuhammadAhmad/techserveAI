@@ -1,6 +1,6 @@
 const service = [
   {
-    image: "images/services/data_mining.jpeg",
+    image: "images/services/data_mining-removebg.png",
     backgroundColor: { backgroundColor: "#EAECEF" },
     title: "Data Mining",
     description:
@@ -8,7 +8,7 @@ const service = [
     text: "Our data mining solutions are designed to build reliable, scalable infrastructures that support your data-driven initiatives, ensuring you get the insights you need when you need them",
   },
   {
-    image: "images/services/AI.jpeg",
+    image: "images/services/AI-removebg.png",
     backgroundColor: { backgroundColor: "#EDEDED" },
     title: "Artificial Intelligence",
     description:
@@ -16,14 +16,14 @@ const service = [
     text: "From automating processes to predictive analytics, we build machine learning models that provide actionable insights and deliver measurable impact.​",
   },
   {
-    image: "images/services/advanced_analysis.jpeg",
+    image: "images/services/advanced_analysis-removebg.png",
     backgroundColor: { backgroundColor: "#CDD4DA" },
     title: "Advanced Analytics",
     description: "We help organizations make sense of complex datasets.",
     text: "Whether it's uncovering patterns in customer behavior, identifying operational inefficiencies, our team provides real-time data analytics and dashboards that turn information into strategic actions.",
   },
   {
-    image: "images/services/app_dev.jpeg",
+    image: "images/services/app_dev-removebg.png",
     backgroundColor: { backgroundColor: "#D9D9D9" },
     title: "Application Development",
     description:
