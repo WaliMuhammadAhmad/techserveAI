@@ -12,12 +12,12 @@ export default function CaseStudy() {
       <div className={style.container}>
         <div className={style.caseStudyHeader}>
           <div className={style.headingSection}>
-            <h1 className={style.heading}>
-              A few of our solutions developed to date.
-            </h1>
+            <span className={style.heading}>
+              <del>A few of our solutions developed to date.</del>
+            </span>
             <img
               className={style.headingSectionImg}
-              src='images/about/1731659208.jpg'
+              src='images/caseStudies/keey-robot.png'
               alt='case study header section'
             />
           </div>
