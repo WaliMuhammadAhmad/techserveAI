@@ -537,7 +537,7 @@
   background-color: #1f1f1f;
   height: auto;
   width: auto;
-  min-height: 85dvh;
+  min-height: 50dvh;
   border-radius: 20px 20px 0 0;
   display: flex;
   flex-direction: column;

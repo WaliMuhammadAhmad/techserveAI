@@ -127,7 +127,7 @@
 
 @media (max-width: 1477px) {
   .caseStudyImg {
-    height: 27.5rem;
+    height: 25rem;
   }
   .caseStudyTitle {
     gap: 1rem;
@@ -136,7 +136,7 @@
 
 @media (max-width: 1365px) {
   .caseStudyImg {
-    height: 25.5rem;
+    height: 22.5rem;
   }
   .caseStudyTitle {
     gap: 0.8rem;
@@ -145,10 +145,6 @@
 }
 
 @media (max-width: 1271px) {
-  .caseStudyImg {
-    height: 23.5rem;
-    width: 99%;
-  }
   .caseStudyTitle {
     gap: 0.6rem;
     font-size: 15px;

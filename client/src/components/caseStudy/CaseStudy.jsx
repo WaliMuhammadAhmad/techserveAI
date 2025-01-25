@@ -28,9 +28,9 @@ export default function CaseStudy({
           backgroundImage: `linear-gradient(to bottom, #141414 90%, ${gradient} 100%)`,
         }}>
         <h3>Problem Statement</h3>
-        <p>{problemStatement}</p>
+        <p style={{ whiteSpace: "pre-line" }}>{problemStatement}</p>
         <h3>Solution</h3>
-        <p>{solution}</p>
+        <p style={{ whiteSpace: "pre-line" }}>{solution}</p>
       </div>
     </div>
   );

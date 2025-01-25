@@ -6,7 +6,6 @@ import Brands from "../../components/Brands";
 import Service from "../../components/service/Service";
 import About from "../../components/About";
 import CaseStudySection from "../../components/caseStudy/CaseStudySection";
-import Products from "../../components/Products";
 import Footer from "../../components/Footer";
 
 export default function Home() {
@@ -27,9 +26,6 @@ export default function Home() {
         <Brands />
         <section id='services'>
           <Service />
-        </section>
-        <section id='products'>
-          <Products />
         </section>
         <section id='about'>
           <About />

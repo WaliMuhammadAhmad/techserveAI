@@ -7,16 +7,19 @@ import CaseStudies from "../../data/caseStudies";
 
 export default function CaseStudy() {
   return (
-    <>
+    <div style={{ background: "#f0f2f4" }}>
       <Navbar />
       <div className={style.container}>
         <div className={style.caseStudyHeader}>
-          <div className={style.heading}>
-            <h1>Case Studies</h1>
-            <p>
-              Explore our in-depth case studies showcasing impactful solutions
-              and innovative approaches.
-            </p>
+          <div className={style.headingSection}>
+            <span className={style.heading}>
+              <del>A few of our solutions developed to date.</del>
+            </span>
+            <img
+              className={style.headingSectionImg}
+              src='images/caseStudies/keey-robot.png'
+              alt='case study header section'
+            />
           </div>
         </div>
         <div className={style.caseStudySection}>
@@ -26,6 +29,6 @@ export default function CaseStudy() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
