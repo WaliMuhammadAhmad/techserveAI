@@ -17,7 +17,7 @@ export default function CaseStudy() {
             </span>
             <img
               className={style.headingSectionImg}
-              src='images/caseStudies/keey-robot.png'
+              src='images/caseStudies/caseStudy_home.jpeg'
               alt='case study header section'
             />
           </div>
