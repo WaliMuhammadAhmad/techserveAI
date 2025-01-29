@@ -62,6 +62,7 @@
   line-height: 1.5;
   font-weight: 500;
   font-size: 18px;
+  margin-top: 5dvh;
 }
 
 .cardButtonContainer {
@@ -81,13 +82,12 @@
   cursor: pointer;
 }
 
-.cardText {
-  text-align: justify;
-}
-
 @media (max-width: 768px) {
   .gridContainer {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+  .cardDescription {
+    margin-top: 0;
   }
 }
 
