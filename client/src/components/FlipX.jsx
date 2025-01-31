@@ -7,17 +7,9 @@ import { SlArrowRight } from "react-icons/sl";
 const DURATION = 0.25;
 const STAGGER = 0.025;
 
-export default function RevealLinks({ link }) {
-  const handleScroll = (e) => {
-    e.preventDefault();
-    const sectionId = link.replace("#", "");
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+export default function RevealLinks() {
   return (
-    <Link to={link} className='cardButton' onClick={handleScroll}>
+    <Link className='cardButton'>
       <motion.span
         initial='initial'
         whileHover='hovered'

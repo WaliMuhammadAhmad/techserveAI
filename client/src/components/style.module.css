@@ -400,20 +400,6 @@
   display: flex;
 }
 
-.cardButtonContainer {
-  padding: 1rem;
-  margin: 0.5rem;
-  background-color: #1f1f1f;
-  color: white;
-  border-radius: 50%;
-  transition: ease-in-out 0.5s;
-}
-
-.cardButtonContainer:hover {
-  background-color: #2f9070;
-  cursor: pointer;
-}
-
 .aboutContainer {
   background-color: #1f1f1f;
   color: white;

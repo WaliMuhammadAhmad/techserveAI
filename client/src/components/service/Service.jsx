@@ -3,8 +3,10 @@ import "../../App.css";
 import FlipX from "../FlipX";
 import style from "./style.module.css";
 import service from "../../data/service";
+import { useNavigate } from "react-router-dom";
 
 export default function Service() {
+  const navigate = useNavigate();
   return (
     <section className={style.sectionContainer}>
       <div className={style.container}>
@@ -39,8 +41,10 @@ export default function Service() {
                   <p className={style.cardText}>{item.text}</p>
                 </div>
               </div>
-              <div className={style.cardButtonContainer}>
-                <FlipX link='/' />
+              <div
+                onClick={() => navigate("/services")}
+                className={style.cardButtonContainer}>
+                <FlipX />
               </div>
             </div>
           ))}

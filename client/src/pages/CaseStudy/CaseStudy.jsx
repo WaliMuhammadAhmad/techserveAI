@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./style.module.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -6,6 +6,10 @@ import CaseStudyCard from "../../components/caseStudy/CaseStudy";
 import CaseStudies from "../../data/caseStudies";
 
 export default function CaseStudy() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={{ background: "#f0f2f4" }}>
       <Navbar />

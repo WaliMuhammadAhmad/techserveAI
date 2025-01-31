@@ -18,13 +18,12 @@ export default function RevealLinks({ name, link }) {
   return (
     <Link to={link} onClick={handleScroll}>
       <motion.span
-        initial="initial"
-        whileHover="hovered"
-        className="container"
+        initial='initial'
+        whileHover='hovered'
+        className='container'
         style={{
           lineHeight: 0.75,
-        }}
-      >
+        }}>
         <div>
           <motion.span
             variants={{
@@ -40,12 +39,11 @@ export default function RevealLinks({ name, link }) {
               ease: "easeInOut",
               delay: STAGGER * 0,
             }}
-            className="inline-block"
-          >
+            className='inline-block'>
             {name}
           </motion.span>
         </div>
-        <div className="absolute">
+        <div className='absolute'>
           <motion.span
             variants={{
               initial: {
@@ -60,8 +58,7 @@ export default function RevealLinks({ name, link }) {
               ease: "easeInOut",
               delay: STAGGER * 0,
             }}
-            className="inline-block"
-          >
+            className='inline-block'>
             {name}
           </motion.span>
         </div>
