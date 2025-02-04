@@ -2,6 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 
 export default function CaseStudy({
+  id,
   title,
   subtitle,
   problemStatement,
@@ -17,7 +18,9 @@ export default function CaseStudy({
           backgroundImage: `linear-gradient(to bottom, #f1f4f6, ${gradient}`,
         }}>
         <div className={style.caseStudyTitle}>
-          <h1>{title}:</h1>
+          <h1>
+            <span className={style.caseStudyNumber}>{id}.</span> {title}:
+          </h1>
           <h2 style={{ fontWeight: "500" }}>{subtitle}</h2>
         </div>
         <img className={style.caseStudyImg} src={image} alt={title} />

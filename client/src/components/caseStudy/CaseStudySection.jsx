@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import "../../App.css";
+import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
+
 import style from "./style.module.css";
 import CaseStudy from "./CaseStudy";
-import { Link } from "react-router-dom";
-import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import caseStudies from "../../data/caseStudies";
+import "../../App.css";
 
 export default function CaseStudySection() {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -85,6 +85,10 @@
   font-size: 18px;
 }
 
+.caseStudyNumber {
+  font-size: larger;
+}
+
 .caseStudyImgBox {
   width: 95%;
   height: auto;

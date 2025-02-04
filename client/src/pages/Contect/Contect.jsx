@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Contect.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -6,11 +6,15 @@ import axios from "axios";
 
 const Contect = () => {
   const [formdata, setFormdata] = useState({
-    name: '',
-    email: '',
-    regarding: '',
-    news: ''
+    name: "",
+    email: "",
+    regarding: "",
+    news: "",
   });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -22,13 +26,13 @@ const Contect = () => {
 
   const handleContact = () => {
     axios
-      .post('http://localhost:3001/contact', formdata)
+      .post("http://localhost:3001/contact", formdata)
       .then((response) => {
-        console.log('Data sent successfully:', response.data);
+        console.log("Data sent successfully:", response.data);
         // Handle the response, e.g., display a success message
       })
       .catch((error) => {
-        console.error('Error sending data:', error);
+        console.error("Error sending data:", error);
         // Handle error, e.g., display an error message
       });
   };
@@ -36,11 +40,11 @@ const Contect = () => {
   return (
     <>
       <Navbar />
-      <div id="above">
-        <div id="outerContainer">
-          <div id="innerone">
+      <div id='above'>
+        <div id='outerContainer'>
+          <div id='innerone'>
             <p>/ Write to us /</p>
-            <div id="loo">
+            <div id='loo'>
               <h1>
                 We are here for you<br></br>and will be happy to<br></br>answer
                 your<br></br>questions.{" "}
@@ -51,23 +55,23 @@ const Contect = () => {
               <br></br> contact form or call us directly
             </p>
 
-            <div id="smallcontainers">
-              <div id="one">
+            <div id='smallcontainers'>
+              <div id='one'>
                 <h2>Yes Lisa</h2>
                 <p>+435572 432002</p>
               </div>
-              <div id="two">
+              <div id='two'>
                 <h2>E-mail</h2>
                 <p>office@keey.ai</p>
               </div>
             </div>
 
-            <div id="smallcontainers">
-              <div id="one">
+            <div id='smallcontainers'>
+              <div id='one'>
                 <h2>Human Dejan</h2>
                 <p>+43 6763490699</p>
               </div>
-              <div id="two">
+              <div id='two'>
                 <h2>KEY Studio</h2>
                 <p>
                   Lochau 6911<br></br>
@@ -77,41 +81,41 @@ const Contect = () => {
             </div>
           </div>
         </div>
-        <div id="formcontainer">
+        <div id='formcontainer'>
           <h2>Contact Us</h2>
           <p>Your information, our expertise</p>
-          <div id="inputs">
+          <div id='inputs'>
             <input
-              type="text"
-              name="name"
-              placeholder="Name"
+              type='text'
+              name='name'
+              placeholder='Name'
               value={formdata.name}
               onChange={handleInputChange}
             />
             <input
-              type="email"
-              name="email"
-              placeholder="Email"
+              type='email'
+              name='email'
+              placeholder='Email'
               value={formdata.email}
               onChange={handleInputChange}
             />
             <input
-              type="text"
-              name="regarding"
-              placeholder="Regarding"
+              type='text'
+              name='regarding'
+              placeholder='Regarding'
               value={formdata.regarding}
               onChange={handleInputChange}
             />
             <input
-              id="lasti"
-              type="text"
-              name="news"
-              placeholder="News"
+              id='lasti'
+              type='text'
+              name='news'
+              placeholder='News'
               value={formdata.news}
               onChange={handleInputChange}
             />
           </div>
-          <div id="buttoner">
+          <div id='buttoner'>
             <button onClick={handleContact}>Make Contact</button>
           </div>
         </div>
