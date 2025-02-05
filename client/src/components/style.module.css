@@ -197,7 +197,7 @@
   color: white;
 }
 
-.navs li:hover {
+.navs .unactive:hover {
   background-color: #e6e6e6;
   border-radius: 50px;
 }

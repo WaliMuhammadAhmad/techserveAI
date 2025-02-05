@@ -19,7 +19,7 @@ export default function CaseStudy({
         }}>
         <div className={style.caseStudyTitle}>
           <h1>
-            <span className={style.caseStudyNumber}>{id}.</span> {title}:
+            <span className={style.caseStudyNumber}>{id}.</span> {title}
           </h1>
           <h2 style={{ fontWeight: "500" }}>{subtitle}</h2>
         </div>

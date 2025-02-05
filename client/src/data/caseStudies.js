@@ -3,7 +3,7 @@ const CaseStudies = [
     id: 1,
     image: "images/caseStudies/Online_Education.png",
     gradient: "#88ceb6",
-    title: "Online Education",
+    title: "Online Education :",
     subtitle: "A digital transformation journey",
     problemStatement:
       "A leading online educational institute experienced rapid and substantial growth over a short period.\n\nThis expansion placed significant strain on their existing back-office infrastructure, which was not equipped to handle the surge in operational demands.\n\nThe institution required a comprehensive digital transformation to ensure its infrastructure could effectively support both current needs and future growth, while maintaining operational efficiency and student satisfaction.",
@@ -14,7 +14,7 @@ const CaseStudies = [
     id: 2,
     image: "images/caseStudies/Mining.png",
     gradient: "#3C88BC",
-    title: "Mining",
+    title: "Mining :",
     subtitle: "A connected mine",
     problemStatement:
       "A Johannesburg Stock Exchange (JSE)-listed mining operation required a comprehensive operational performance reporting system that would cover the entire value chain.\n\n The system needed to enable seamless data capture across various operations and ensure daily production reconciliation, providing accurate and real-time insights to improve decision-making and operational efficiency",
@@ -25,7 +25,7 @@ const CaseStudies = [
     id: 3,
     image: "images/caseStudies/Property.png",
     gradient: "#A6C8D9",
-    title: "Property Management",
+    title: "Property Management :",
     subtitle: "Real-time reporting",
     problemStatement:
       "A large property management entity required a secured data pipeline to be constructed, enabling seamless ingestion of data from their existing management tool.\n\n This data needed to be utilized to create a data analytics control room, providing near real-time insights to manage various property portfolios at strategic, operational, and tactical levels.\n\n The solution needed to ensure data security while enabling informed decision-making across the organization, improving overall efficiency and responsiveness.",

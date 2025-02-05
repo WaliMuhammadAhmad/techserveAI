@@ -75,7 +75,9 @@ export default function Navbar() {
                   <li
                     key={nav.id}
                     className={
-                      location.pathname === nav.link ? style.active : ""
+                      location.pathname === nav.link
+                        ? style.active
+                        : style.unactive
                     }
                     onClick={() => navigate(nav.link)}>
                     <FlipLink name={nav.name} link={nav.link}>

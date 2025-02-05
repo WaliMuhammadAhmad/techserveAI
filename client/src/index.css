@@ -1,10 +1,15 @@
+:root {
+  --heading: "Georgia", serif;
+  --body: "Calibri", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 0.7s ease;
@@ -15,13 +20,13 @@ code {
     monospace;
 }
 
+h2,
 h1 {
-  font-family: "Alice", serif;
+  font-family: var(--heading);
 }
 
-h2,
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--body);
 }
 
 a {

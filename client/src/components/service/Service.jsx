@@ -17,8 +17,9 @@ export default function Service() {
             Our Services
           </h1>
           <p className={style.sectionDescription}>
-            We data analytics and artificial intelligence company committed to
-            helping businesses unlock the full potential of their data​
+            We are a data analytics and artificial intelligence company
+            committed to helping businesses unlock the full potential of their
+            data​
           </p>
         </div>
         <div className={style.gridContainer}>
