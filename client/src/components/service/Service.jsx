@@ -35,7 +35,7 @@ export default function Service() {
                     alt={item.title}
                     className={style.cardImage}
                   />
-                  <h3 className={style.cardTitle}>{item.title}</h3>
+                  <h1 className={style.cardTitle}>{item.title}</h1>
                 </div>
                 <div className={style.cardDescription}>
                   <p className={style.cardText}>{item.description}</p>
